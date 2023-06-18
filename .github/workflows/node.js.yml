@@ -28,7 +28,7 @@ jobs:
         cache: 'npm'
       
     - name: Run tests
-      uses: cypress-io/github-actions@v8
+      uses: ./
       with:
         command: yarn cy:run
         start: yarn start    
